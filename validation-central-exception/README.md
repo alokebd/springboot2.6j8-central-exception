@@ -1,6 +1,6 @@
 # validation-exception-handling
-Spring Request validation &amp; Exception Handling 
-1). Add few users and check by following in POSTMAN
+Spring Request validation &amp; Exception Handling <br>
+1). Add few users and check by following in POSTMAN<br>
 a). http://localhost:9292/api/users
 {
  "userId": 1,
