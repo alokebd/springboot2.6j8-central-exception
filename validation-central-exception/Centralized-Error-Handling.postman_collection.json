@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "cac7dea5-a773-4ee8-8dcc-61af941f2a95",
+		"name": "Centralized-Error-Handling",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33936986"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9292/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"userId\": 3,\r\n \"name\": \"Steve\",\r\n \"email\": \"steve@gmail.com\",\r\n \"mobile\": \"4162863799\",\r\n \"gender\": \"M\",\r\n \"age\": 54,\r\n \"nationality\": \"Canadian\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9292/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:9292/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/api/users/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:9292/api/users/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9292/api/users/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:9292/api/users/5"
+			},
+			"response": []
+		}
+	]
+}
